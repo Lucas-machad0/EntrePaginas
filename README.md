@@ -9,6 +9,9 @@ Global Solution 2026 (2º semestre) - Android Kotlin Developer - CitizenTech.
 - Lucas Moura Machado - RM 557431
 - Pedro Salimon - RM 555038
 
+Link Git: https://github.com/Lucas-machad0/EntrePaginas
+Link Video Pitch: https://youtu.be/ebd9bzw46U0?is=txWetNM5rvELP7IF
+
 ## Problema
 
 Muitos livros ficam parados na estante depois de lidos, enquanto outras pessoas querem ler e não têm acesso a eles. Segundo a pesquisa Retratos da Leitura no Brasil (2024), 53% da população com 5 anos ou mais não leu nem parte de um livro nos três meses anteriores à pesquisa.
