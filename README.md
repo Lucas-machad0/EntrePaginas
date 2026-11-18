@@ -13,7 +13,7 @@ Global Solution 2026 (2º semestre) - Android Kotlin Developer - CitizenTech.
 
 Muitos livros ficam parados na estante depois de lidos, enquanto outras pessoas querem ler e não têm acesso a eles. Segundo a pesquisa Retratos da Leitura no Brasil (2024), 53% da população com 5 anos ou mais não leu nem parte de um livro nos três meses anteriores à pesquisa.
 
-## Público
+## Público beneficiado
 
 Leitores de um mesmo bairro, condomínio, escola ou grupo de leitura.
 
@@ -35,7 +35,7 @@ O app permite cadastrar livros para troca, consultar os livros da comunidade e s
 - Solicitar troca, cancelar, confirmar troca e excluir livro.
 - Dados salvos com Room, mantidos depois de fechar o app.
 
-## Tecnologias
+## Tecnologias utilizadas
 
 Kotlin, Jetpack Compose (Material 3), Navigation Compose, ViewModel com StateFlow, Room, Hilt e Coroutines/Flow.
 
@@ -47,7 +47,7 @@ Kotlin, Jetpack Compose (Material 3), Navigation Compose, ViewModel com StateFlo
 - `di`: módulos do Hilt
 - `ui`: telas, ViewModels, navegação e tema
 
-## Como executar
+## Como executar o app
 
 1. Abrir a pasta do projeto no Android Studio.
 2. Aguardar o Gradle Sync.
@@ -75,3 +75,9 @@ Kotlin, Jetpack Compose (Material 3), Navigation Compose, ViewModel com StateFlo
 | Solicitar troca | Troca solicitada | Após reabrir o app |
 | --- | --- | --- |
 | ![Solicitar troca](docs/screenshots/07-solicitar-troca.png) | ![Troca solicitada](docs/screenshots/08-troca-solicitada.png) | ![Após reabrir](docs/screenshots/09-apos-reabrir.png) |
+
+## Evidências
+
+- Criação de registro: o livro "Teste1" foi cadastrado (print Cadastro) e aparece no topo da lista (print Lista).
+- Ação adicional: foi solicitada a troca do livro "Vidas Secas" e o status mudou para "Troca solicitada" (print Troca solicitada).
+- Permanência após reabrir: o app foi fechado e aberto de novo, e o livro cadastrado e a troca continuam salvos (print Após reabrir o app).
